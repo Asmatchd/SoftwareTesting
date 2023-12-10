@@ -1,7 +1,8 @@
 {
   "scripts": {
     "test": "mocha --exit",
-    "coverage": "nyc npm test -- --exit && nyc report --reporter=text-lcov"
+    "coverage": "nyc npm test -- --exit && nyc report --reporter=text-lcov > coverage/lcov.info"
+
   },
   "devDependencies": {
     "chai": "^4.3.10",
