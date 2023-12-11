@@ -1,4 +1,7 @@
 {
+  "name": "SATH",
+  "version": "1.0.0",
+  "description": "Description of your project",
   "scripts": {
     "test": "mocha --exit",
     "coverage": "nyc mocha"
@@ -8,6 +11,10 @@
     "coveralls": "^3.1.1",
     "mocha": "^10.2.0",
     "nyc": "^15.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Asmatchd/SoftwareTesting.git"
   },
   "type": "module"
 }
